@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   position: relative;
+  height: 100vh;
+  width: 100vw;
 }
 
 .title {
@@ -11,4 +13,27 @@
 .text {
   font-size: 28px;
   font-weight: 400;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.page img{
+  width: 200px;
+  margin-top: auto;
+  align-self: center;
+}
+
+.page-iphone{
+  background: #111;
+  color: #FFF;
+}
+.page-tablet{
+  background: #fafafa;
+}
+.page-airpods{
+  background: #f1f1f3;
 }
